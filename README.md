@@ -6,7 +6,7 @@ Senior Android Engineer · Vancouver, BC · building AI tools and the systems th
 
 ## What I'm building
 
-**[sentient](https://github.com/dev32-io/sentient)** — voice AI assistant for my wife. Raspberry Pi 5, Silero VAD + Smart Turn V3 + Fish-audio TTS, dual-language, persistent user memory. Shipped concept-to-daily-use in a month. UI decisions made on instinct, refined by use.
+**[sentient](https://github.com/dev32-io/sentient)** — A family voice AI assistant. Raspberry Pi 5, Silero VAD + Smart Turn V3 + Fish-audio TTS, dual-language, persistent user memory. Shipped concept-to-daily-use in a month. UI decisions made on instinct, refined by use.
 
 **[esp32-devtool](https://github.com/dev32-io/esp32-devtool)** — unified CLI giving agents every sense and every hand on an ESP32 board (screenshot, touch-event, send/receive large binary payloads). Closes the loop from idea to working hardware product without a human in the inner loop.
 
