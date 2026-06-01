@@ -10,9 +10,9 @@ Senior Android Engineer · Vancouver, BC · building AI tools and the systems th
 
 **[esp32-devtool](https://github.com/dev32-io/esp32-devtool)** — unified CLI giving agents every sense and every hand on an ESP32 board (screenshot, touch-event, send/receive large binary payloads). Closes the loop from idea to working hardware product without a human in the inner loop.
 
-**[ccToolBox](https://github.com/dev32-io/ccToolBox)** — Claude Code skills extracted from my daily setup. `code-review` skill with strict human-gate output template, module-distill, platform-help, others.
+**[ccToolBox](https://github.com/dev32-io/ccToolBox)** — Claude Code skills extracted from my daily setup. Ralph-loop based deep research setup. And `frustration-check` skill that helps user step back when user frustration is captured, provides additional research for knowledge gaps or model drift.
 
-**[agentic-dev-harness](https://github.com/dev32-io/agentic-dev-harness)** — rules library + ralph-loop research harness. The frustration-check and e2e rules are the backbone — they keep prototype velocity high while filling knowledge gaps consistently.
+**[agentic-dev-harness](https://github.com/dev32-io/agentic-dev-harness)** — rules library + fully agentic workflow harness. The frustration-check and e2e rules are the backbone — they keep prototype velocity high while filling knowledge gaps consistently.
 
 ## Stack
 
