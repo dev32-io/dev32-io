@@ -20,4 +20,5 @@ Kotlin (8 yrs), Jetpack Compose, Android platform engineering. React Native (Kon
 
 ## Where to find me
 
+- Personal Site: https://blog.dev32.io/
 - LinkedIn: [linkedin.com/in/kevin-ye-3167b2114](https://www.linkedin.com/in/kevin-ye-3167b2114/)
