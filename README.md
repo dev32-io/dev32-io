@@ -1,24 +1,60 @@
 # Kevin Ye
 
-Senior Android Engineer · Vancouver, BC · building AI tools and the systems that make them ship
+**Software engineer building mobile products, voice assistants, and coding-agent systems.**
 
-8 years shipping Android — agency years across many clients (airlines, fitness, retail, aviation) and platform-engineering years on a 100+-feature-module monorepo. Most recent stretch: built out a team's Claude Code practice from scratch and led the modularization that scaled it. During my free time, I build things for fun and share them here.
+Vancouver, BC · 10 years in software engineering · 8+ years shipping Android
 
-## What I'm building
+I build the product and the systems behind it: native clients, realtime backends, agent runtimes, and the tooling that gets changes shipped and verified.
 
-**[sentient](https://github.com/dev32-io/sentient)** — A family voice AI assistant. Raspberry Pi 5, Silero VAD + Smart Turn V3 + Fish-audio TTS, dual-language, persistent user memory. Shipped concept-to-daily-use in a month. UI decisions made on instinct, refined by use.
+At theScore, I led a multi-quarter Android modularization into 100+ feature modules and built the Android team's Claude Code practice from scratch. Before that, I delivered mobile systems across six consumer and fintech engagements at Konrad Group, from Compose architecture and offline-first apps to Bluetooth-connected fitness hardware.
 
-**[esp32-devtool](https://github.com/dev32-io/esp32-devtool)** — unified CLI giving agents every sense and every hand on an ESP32 board (screenshot, touch-event, send/receive large binary payloads). Closes the loop from idea to working hardware product without a human in the inner loop.
+My current open-source focus is making agents useful beyond a single conversation: durable state, reliable tools, explicit permissions, and execution that can recover when things go wrong.
 
-**[ccToolBox](https://github.com/dev32-io/ccToolBox)** — Claude Code skills extracted from my daily setup. Ralph-loop based deep research setup. And `frustration-check` skill that helps user step back when user frustration is captured, provides additional research for knowledge gaps or model drift.
+## Featured projects
 
-**[agentic-dev-harness](https://github.com/dev32-io/agentic-dev-harness)** — rules library + fully agentic workflow harness. The frustration-check and e2e rules are the backbone — they keep prototype velocity high while filling knowledge gaps consistently.
+### [PiBox](https://github.com/dev32-io/PiBox)
+**A development environment for supervised agentic software delivery, built on the [Pi coding agent](https://github.com/badlogic/pi-mono).**
 
-## Stack
+PiBox brings multi-agent execution, visual design tools, and managed delivery workflows into one terminal environment. Work can stay lightweight and interactive, or move from a reviewed idea through implementation, integration, code review, and end-to-end verification.
 
-Kotlin (8 yrs), Jetpack Compose, Android platform engineering. React Native (Konrad — Canadian airline Xamarin modernization). Python/TS (Sentient backend). Bluetooth/BLE on custom hardware. Gradle build systems at monorepo scale. Claude Code, MCP, agent tooling.
+- **Multi-agent orchestration:** bounded foreground and background agents, live progress, scoped tools, and model-tier routing.
+- **Managed delivery:** dependency-aware stages, isolated Git worktrees, deterministic checks, and bounded review-and-repair loops.
+- **Explicit control and recovery:** user-approved execution, enforced repository permissions, durable workflow state, and recovery after interrupted runs.
+- **Visual tools:** live architecture diagrams, browser mockups, and a workflow board showing progress and verification evidence.
 
-## Where to find me
+[![PiBox workflow board showing staged delivery and final verification](https://raw.githubusercontent.com/dev32-io/PiBox/develop/docs/assets/workflow-demo/workflow-dashboard.png)](https://github.com/dev32-io/PiBox#from-idea-to-working-product)
 
-- Personal Site: https://blog.dev32.io/
-- LinkedIn: [linkedin.com/in/kevin-ye-3167b2114](https://www.linkedin.com/in/kevin-ye-3167b2114/)
+[Explore the code and workflow demo →](https://github.com/dev32-io/PiBox#from-idea-to-working-product)
+
+### [Sentient](https://github.com/dev32-io/sentient)
+**An open-source voice and text assistant I run for my family.**
+
+Sentient connects a native Bun/TypeScript agent runtime with local speech services, persistent memory, and household tools on an Apple-silicon Mac mini. I own the system end to end: gateway, clients, shared SDKs, capability services, and deployment.
+
+- **Native agent runtime:** streaming model responses, ReAct tool loops, provider routing, cancellation, and per-tool permissions with human confirmation.
+- **Voice interaction:** local Whisper speech recognition and Qwen speech synthesis, streaming audio, and barge-in.
+- **Memory and continuity:** durable sessions, scoped personal and household recall, and reconnectable realtime clients.
+- **Multiple surfaces:** a web app serving my household, with Android and iOS clients under active development using Kotlin Multiplatform, Jetpack Compose, and SwiftUI.
+
+Built for people I know—not just a demo prompt.
+
+[Explore the code and live-stack demos →](https://github.com/dev32-io/sentient#demo)
+
+## More tools I've built
+
+- **[esp32-devtool](https://github.com/dev32-io/esp32-devtool)** — Hardware tooling that lets coding agents inspect device screens, send touch events, and transfer binary payloads on ESP32 boards.
+- **[ccToolBox](https://github.com/dev32-io/ccToolBox)** — Claude Code skills and research tools extracted from my development practice.
+- **[agentic-dev-harness](https://github.com/dev32-io/agentic-dev-harness)** — Agent workflow rules and quality gates, including frustration checks and end-to-end verification.
+
+## Technical toolkit
+
+| Area | Technologies and systems |
+| --- | --- |
+| Mobile | Kotlin, Jetpack Compose, Kotlin Multiplatform, SwiftUI, React Native, BLE |
+| Agents | TypeScript, Bun/Node.js, tool calling, MCP, subagents, memory, evaluation and review loops |
+| Backend & realtime | Python, FastAPI, WebSockets, SQLite, streaming audio, local speech services |
+| Developer systems | Gradle, modularization, Git worktrees, GitHub Actions, CI/CD, Docker |
+
+## Connect
+
+[Website](https://blog.dev32.io/) · [LinkedIn](https://www.linkedin.com/in/kevin-ye-3167b2114/) · [Email](mailto:kevin.ye32@gmail.com)
