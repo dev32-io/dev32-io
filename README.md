@@ -1,6 +1,6 @@
 # Kevin Ye
 
-I build mobile apps, AI tools, and things for my family. Based in Vancouver, with 10 years in software engineering and a background in Android.
+Software engineer in Vancouver building across mobile, backend, and developer tooling. Currently focused on agent orchestration and voice AI.
 
 ## Currently building
 
