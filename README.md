@@ -6,7 +6,7 @@ Vancouver, BC · 10 years in software engineering · 8+ years shipping Android
 
 I build the product and the systems behind it: native clients, realtime backends, agent runtimes, and the tooling that gets changes shipped and verified.
 
-At theScore, I led a multi-quarter Android modularization into 100+ feature modules and built the Android team's Claude Code practice from scratch. Before that, I delivered mobile systems across six consumer and fintech engagements at Konrad Group, from Compose architecture and offline-first apps to Bluetooth-connected fitness hardware.
+I led a multi-quarter Android modularization into 100+ feature modules and built an Android team's Claude Code practice from scratch. Before that, I delivered mobile systems across six consumer and fintech engagements at Konrad Group, from Compose architecture and offline-first apps to Bluetooth-connected fitness hardware.
 
 My current open-source focus is making agents useful beyond a single conversation: durable state, reliable tools, explicit permissions, and execution that can recover when things go wrong.
 
